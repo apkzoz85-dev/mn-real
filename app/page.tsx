@@ -5,15 +5,15 @@ import { useEffect, useRef, useState } from "react";
 /* ============================================================
    إعدادات أساسية — عدّل قبل الرفع
    ============================================================ */
-const PHONE = "01114555035";
-const PHONE_INTL = "+201114555035";
-const WA_NUM = "201114555035";
+const PHONE = "01001050018";
+const PHONE_INTL = "+201001050018";
+const WA_NUM = "201001050018";
 const waLink = (msg: string) =>
   `https://wa.me/${WA_NUM}?text=${encodeURIComponent(msg)}`;
 const WA_DEFAULT = waLink(
   "مرحباً، أريد الاستفسار عن أسعار مشاريع مدينة مصر (سراي / تاج سيتي / ذا باترفلاي)"
 );
-const WEB3FORMS_KEY = "e8adcb67-e7f1-467c-a0b0-4c50d4100987"; // TODO
+const WEB3FORMS_KEY = "42fe51e7-2ee2-46cb-8ef7-91e798e6d8b2"; // TODO
 
 const CONV_FORM = "AW-XXXXXXXXXX/FORM_LABEL"; // TODO
 const CONV_WHATSAPP = "AW-XXXXXXXXXX/WA_LABEL"; // TODO
